@@ -1,0 +1,103 @@
+@font-face 
+{
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway/Raleway-VariableFont_wght.ttf');
+   /* src: url('Aileron-Black.eot?#iefix') format('embedded-opentype'),
+         url('Aileron-Black.woff') format('woff'),
+         url('Aileron-Black.ttf') format('truetype'),
+         url('Aileron-Black.svg#Aileron-Black') format('svg');*/
+    /* font-weight: normal;
+    font-style: normal; */
+
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+* {
+    box-sizing: border-box;
+    font-family: 'Raleway', 'Arial', sans-serif;
+    /* padding: 1%; */
+    margin: 0;
+    width: 100%;
+    text-decoration: none;
+    border
+}
+
+.menu, nav, nav ul, nav ul li, nav ul li a, .inscription a {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+}
+
+header {
+   
+    border: aqua 1px solid;
+}
+
+.menu{
+    border: rgb(0, 255, 128) 1px solid;
+}
+
+nav{
+    border: orange 1px solid;
+}
+
+.inscription a {
+    border : red 1px solid;
+    /* background-color: grey; */
+}
+
+.champ_recherches{
+    display: flex;
+    width: 30%;
+}
+
+.test {
+    display: flex;
+}
+
+.couleur_fond{
+    background-color: #F2F2F2;
+}
+
+#hebergements, aside, #activites {
+    height: 30vh;
+}
+
+#hebergements {
+    width: 60vw;
+}
+
+aside {
+    width: 40vw;
+}
+
+.activites, footer {
+    width: 100vw;
+}
+
+footer {
+    height: 15vh;
+    bottom: 0;
+    position: absolute;
+    display: flex;
+    /* padding : 1%; */
+}
+
+.col{
+    width: 33.33%;
+    border: solid 1px;
+    /* padding: 0.3rem; */
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    line-height: 1.5rem;
+}
+
+/* h1 {
+    font-weight: bold;
+} */
