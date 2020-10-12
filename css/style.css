@@ -18,16 +18,21 @@ html {
 * {
     box-sizing: border-box;
     font-family: 'Raleway', 'Arial', sans-serif;
-    /* padding: 1%; */
+    padding: 0;
     margin: 0;
     width: 100%;
     text-decoration: none;
-    border
+    /* background-size:cover;
+    background-repeat:no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover; */
 }
 
 .menu, nav, nav ul, nav ul li, nav ul li a, .inscription a {
     height: 10vh;
     display: flex;
+    align-items: center;
     justify-content: center;
 }
 
@@ -49,13 +54,19 @@ nav{
     /* background-color: grey; */
 }
 
+.zone_de_recherches{
+    height: 20vh;
+}
+
 .champ_recherches{
     display: flex;
     width: 30%;
 }
 
 .test {
+    /* padding: 1%; */
     display: flex;
+    justify-content: space-around;
 }
 
 .couleur_fond{
@@ -63,25 +74,31 @@ nav{
 }
 
 #hebergements, aside, #activites {
-    height: 60vh;
+    padding: 1%;
+    height: 70vh;
 }
 
 #hebergements {
-    width: 60vw;
+    width: 58vw;
 }
 
 aside {
-    width: 40vw;
+    width: 38vw;
 }
 
-.activites, footer {
+.activites {
+    width: 96vw;
+    margin: auto;
+}
+
+footer {
     width: 100vw;
 }
 
 footer {
     height: 15vh;
     bottom: 0;
-    position: absolute;
+    position: relative;
     display: flex;
     /* padding : 1%; */
 }
@@ -98,6 +115,6 @@ footer {
     line-height: 1.5rem;
 }
 
-/* h1 {
-    font-weight: bold;
-} */
+.coins_arrondis{
+    border-radius: 30px;
+}
