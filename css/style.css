@@ -71,11 +71,13 @@ header {
     height: 7.5vh;
     background-color: lemonchiffon;
     display: flex;
+    justify-content: space-between;
 }
 
 .logo {
     background-color: lightseagreen;
     width: auto;
+    
 }
 
 nav {
@@ -92,9 +94,13 @@ nav ul{
 nav ul li {
     width: 10.6vw;
     display: flex;
-    
     background-color: mediumspringgreen;
     border: 1px solid;
+}
+
+nav ul li a {
+    display: flex;
+    background-color: red;
 }
 
 
@@ -104,29 +110,6 @@ nav ul li {
     display: flex;
     align-items: center;
     justify-content: center;
-} */
-
-/* header {
-   width: 95vw;
-    border: aqua 1px solid;
-    margin: auto;
-} */
-
-/* .menu a img {
-    width: 15%;
-    height: 15%;
-    /* margin-left: 5%; 
-} */
-
-/* .menu{
-    border: rgb(0, 255, 128) 1px solid;
-    width: 36.75vw;
-    width: 100%;
-}  */
-
-/* nav{
-    border: orange 1px solid;
-    width: 24.5vw;
 } */
 
 /* .inscription{
