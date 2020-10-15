@@ -53,11 +53,65 @@ header {
 #hebergements {
     width: 63.7vw;
     background-color: greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.galerie_hebergements{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 95%;
+    height: 65%;
+    background-color: mediumvioletred;
+}
+
+.ligne_photos_superieure{
+    background-color: oldlace;
+    height: 46.5%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ligne_photos_superieure img{
+    background-color: palevioletred;
+    /* height: 32.5%; */
+    width: 31.5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ligne_photos_inferieure{
+    background-color: palevioletred;
+    height: 46.5%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ligne_photos_inferieure img{
+    background-color: oldlace;
+    /* height: 32.5%; */
+    width: 31.5%;
+    display: flex;
+    justify-content: space-between;
 }
 
 .flux_populaires  {
     width: 31.8vw;
     background-color: orange;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.galerie_flux_populaires{
+    margin-top: 17.5%;
+    background-color: lightskyblue;
+    width: 90%;
+    height: 78%;
 }
 
 .menu {
