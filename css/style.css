@@ -37,7 +37,7 @@ header {
     background-color: lightgrey;
 }
 
-.container_hebergements {
+.container_hebergements, .container_activites {
     display: flex;
     justify-content: space-between;
     width: 97vw;
@@ -46,13 +46,13 @@ header {
     background-color: lightblue;
 }
 
-#hebergements, .flux_populaires {
+#hebergements, .flux_populaires{
     height: 100%;
 }
 
 #hebergements {
     width: 63.7vw;
-    background-color: greenyellow;
+    /* background-color: greenyellow; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -64,7 +64,7 @@ header {
     justify-content: space-between;
     width: 95%;
     height: 65%;
-    background-color: mediumvioletred;
+    /* background-color: mediumvioletred; */
 }
 
 .ligne_photos_superieure{
@@ -112,6 +112,52 @@ header {
     background-color: lightskyblue;
     width: 90%;
     height: 78%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.galerie_flux_populaires img {
+    height: 30%;
+    width: 100%;
+    background-color: navajowhite;
+}
+
+.galerie_activites {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    width: 97%;
+    height: 65%;
+    background-color: slateblue;
+}
+
+#activites {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.colonne_1_vignette {
+    background-color: tan;
+    height: 100%;
+    width: 23.5%;
+}
+
+.colonne_2_vignettes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color:palegreen;
+    height: 100%;
+    width: 23.5%;
+}
+
+.colonne_2_vignettes img {
+    height: 45%;
+    background-color: pink;
 }
 
 .menu {
@@ -157,7 +203,28 @@ nav ul li a {
     background-color: red;
 }
 
+footer {
+    width: 100%;
+    min-height: 30vh;
+    bottom: 0;
+    position: relative;
+    display: flex;
+    margin: auto;
+}
 
+.col{
+    width: 33.33%;
+    border: solid 1px;
+    padding: 3rem;
+    min-height: 30vh;
+    display: flex;
+    flex-direction: column;
+    line-height: 3rem;
+}
+
+.couleur_fond{
+    background-color: #F2F2F2;
+}
 
 /* .menu, nav, nav ul, nav ul li, nav ul li a, .inscription a {
     height: 10vh;
@@ -189,9 +256,7 @@ nav ul li a {
 } */
 
 
-/* .couleur_fond{
-    background-color: #F2F2F2;
-} */
+
 
 /* #hebergements, aside, #activites {
     padding: 2%;
@@ -213,23 +278,9 @@ nav ul li a {
     width: 36.75vw;
 } */
 
-/* footer {
-    width: 100%;
-    height: 30vh;
-    bottom: 0;
-    position: relative;
-    display: flex;
-} */
 
-/* .col{
-    width: 33.33%;
-    border: solid 1px;
-    padding: 3rem;
-    height: 30vh;
-    display: flex;
-    flex-direction: column;
-    line-height: 3rem;
-} */
+
+
 
 /* .coins_arrondis{
     border-radius: 30px;
