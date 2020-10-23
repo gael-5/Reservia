@@ -43,7 +43,7 @@ header {
     width: 97vw;
     margin: auto;
     height: 67vh;
-    background-color: lightblue;
+    /* background-color: lightblue; */
 }
 
 #hebergements, .flux_populaires{
@@ -99,10 +99,26 @@ header {
     justify-content: space-between;
 }
 
+.entete_section{
+    height: 17.5%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: pink;
+    margin: auto;
+}
+
+.entete_section img{
+    width: 22%;
+    height: 22%;
+}
+
 .flux_populaires  {
     width: 31.8vw;
     background-color: orange;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     /* align-items: center; */
 }
@@ -112,6 +128,7 @@ header {
     background-color: lightskyblue;
     width: 90%;
     height: 78%;
+    margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -226,6 +243,10 @@ footer {
     background-color: #F2F2F2;
 }
 
+.coins_arrondis{
+    border-radius: 30px;
+}
+
 /* .menu, nav, nav ul, nav ul li, nav ul li a, .inscription a {
     height: 10vh;
     display: flex;
@@ -244,10 +265,6 @@ footer {
 
 /* .zone_de_recherches{
     height: 20vh;
-} */
-
-/* .zone_de_recherches h1, .zone_de_recherches p{
-    margin-left: 5%;
 } */
 
 /* .champ_recherches{
@@ -282,6 +299,4 @@ footer {
 
 
 
-/* .coins_arrondis{
-    border-radius: 30px;
-} */
+
