@@ -209,6 +209,7 @@ nav ul{
 }
 
 nav ul li {
+    
     width: 10.6vw;
     display: flex;
     background-color: mediumspringgreen;
@@ -216,6 +217,8 @@ nav ul li {
 }
 
 nav ul li a {
+    justify-content: center;
+    width: 100%;
     display: flex;
     background-color: red;
 }
